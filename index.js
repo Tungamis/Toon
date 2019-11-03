@@ -6,6 +6,8 @@ const token = 'NjQwMjA0OTY4NTczNTM0MjE5.Xb2bXw.oopU3ThBCS8hFxBtyZ7GkW27kE8';
 
 const PREFIX = 'manero ';
 
+client.login(preocess.env.token);
+
 const ytdl = require("ytdl-core");
 
 var servers = {};
